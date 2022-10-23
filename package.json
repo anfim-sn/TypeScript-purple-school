@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.74.0"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js --progress --watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
