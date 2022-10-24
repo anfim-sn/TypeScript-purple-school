@@ -1,12 +1,10 @@
-[
-  {
-    "question": "What shipping method?",
-    "answer": "Home delivery",
-    "tags": [
-      "popular",
-      "new"
-    ],
-    "likes": 3,
-    "status": "published"
-  }
-]
+{
+  "question": "What shipping method?",
+  "answer": "Home delivery",
+  "tags": [
+    "popular",
+    "new"
+  ],
+  "likes": 3,
+  "status": "published"
+}
