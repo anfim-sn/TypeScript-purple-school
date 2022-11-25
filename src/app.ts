@@ -1,8 +1,10 @@
-export class App {
-  run() {
-    console.log('Run')
-  }
+import {FfmpegExecutor} from './commands/ffmpeg/ffmpeg.executor.js'
+import {ConsoleLogger} from './out/console-logger/console-logger.js'
+
+class App {
+ run() {
+   new FfmpegExecutor(ConsoleLogger.getInstance()).execute()
+ }
 }
 
-const app = new App()
-app.run()
+new App().run()
