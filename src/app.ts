@@ -1,2 +1,8 @@
-import { objectType } from "./1-task-objectType/task";
-import { functionType } from "./2-task-functionType/task";
+export class App {
+  run() {
+    console.log('Run')
+  }
+}
+
+const app = new App()
+app.run()
